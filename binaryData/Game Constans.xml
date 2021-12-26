@@ -1,0 +1,2441 @@
+<GameConstants>
+<campaignDifficulty>1</campaignDifficulty>
+<campaignVersion>1.24</campaignVersion>
+<campaignDebug>1</campaignDebug>
+<skipToLevel>0</skipToLevel>
+<isAlpha>1</isAlpha>
+
+<isKongregate>0</isKongregate>
+<isTesting>0</isTesting>
+<debug>0</debug>
+
+<debugTeamA>Order</debugTeamA>
+<debugTeamB>Chaos</debugTeamB>
+
+<elementalsEnabled>1</elementalsEnabled>
+<hasArmory>1</hasArmory>
+<version>2.29</version>
+
+<isFogOfWar>1</isFogOfWar>
+<gravity>0.45</gravity>
+<worldScale>1</worldScale>
+<frontScale>.8</frontScale>
+<backScale>.5</backScale>
+
+
+
+
+
+
+<goldAtStartOfMap>3500</goldAtStartOfMap>
+<sandboxMap>2</sandboxMap>
+
+
+<mainServer>23.23.246.201</mainServer>
+<testServer>127.0.0.1</testServer>
+
+
+<battlefieldHeight>250</battlefieldHeight>
+<battlefieldY>320</battlefieldY>
+<maxWorshipers>6</maxWorshipers>
+<toolBoxShowTime>1</toolBoxShowTime>
+<startingGold>500</startingGold>
+<startingMana>0</startingMana>
+<visionSize>1200</visionSize>
+<populationLimit>80</populationLimit>
+<passiveIncome>0</passiveIncome>
+<passiveMana>0</passiveMana>
+<passiveIncomeUpgraded1>5</passiveIncomeUpgraded1>
+<passiveIncomeUpgraded2>10</passiveIncomeUpgraded2>
+<passiveIncomeUpgraded3>20</passiveIncomeUpgraded3>
+<passiveManaUpgraded1>3.5</passiveManaUpgraded1>
+<passiveManaUpgraded2>7</passiveManaUpgraded2>
+<passiveManaUpgraded3>14</passiveManaUpgraded3>
+
+<towerCaptureTime>300</towerCaptureTime>
+
+<garrisonHealRate>.15</garrisonHealRate>
+<towerSpawnDelay>750</towerSpawnDelay>
+
+<incomeDisplay>
+	<time>120</time>
+</incomeDisplay>
+<hill>
+	<goldCollectionRate>20</goldCollectionRate>
+	<manaCollectionRate>20</manaCollectionRate>
+	<frequency>120</frequency>
+</hill>
+
+
+<screenScrollSpeed>35</screenScrollSpeed>
+<screenScrollGain>0.3</screenScrollGain>
+
+<Commands>
+<move>
+<name>Move Command (M)</name>
+<info>Moves a unit to specified location without attacking units in the path</info>
+<hotkey>68</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+</move>
+
+<attackMove>
+<name>Attack Move Command (A)</name>
+<info>Moves to a specified location and attacks units that are in the path</info>
+<hotkey>65</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+</attackMove>
+
+<hold>
+<name>Hold Command (H)</name>
+<info>Unit is unable to move but is able to attack units in reach</info>
+<hotkey>72</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+</hold>
+
+<stand>
+<name>Stand Command (S)</name>
+<info>Cancels current command</info>
+<hotkey>83</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+</stand>
+
+<garrison>
+<name>Garrison Command (G)</name>
+<info>Garrison unit inside castle</info>
+<hotkey>71</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+</garrison>
+
+<ungarrison>
+<name>Ungarrison Command (U)</name>
+<info>Ungarrison unit from castle</info>
+<hotkey>85</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+</ungarrison>
+
+</Commands>
+
+<Chaos>
+<healRate>.033</healRate>
+<poisonDuration>500</poisonDuration>
+<maxTowers>2</maxTowers>
+<Tech>
+
+<towerSpawnI>
+<name>Tower Spawn I</name>
+<cost>600</cost>
+<mana>200</mana>
+<effect>1</effect>
+<time>900</time>
+<tip>Spawn an uncontrolled ghostly unit from the center tower for no cost or population.</tip>
+</towerSpawnI>
+
+<towerSpawnII>
+<name>Tower Spawn II</name>
+<cost>2000</cost>
+<mana>1000</mana>
+<effect>1</effect>
+<time>1200</time>
+<tip>Spawn a more powerfull  uncontrolled ghostly unit from the center tower for no cost or population.</tip>
+</towerSpawnII>
+
+<minerTower>
+<name>Miner Tower Upgrade</name>
+<cost>100</cost>
+<mana>0</mana>
+<effect>1</effect>
+<time>900</time>
+<tip>Allows miner to construct a static tower that automatically attacks the enemy.</tip>
+</minerTower>
+
+<statueHealth>
+<name>Resilience</name>
+<cost>50</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>600</time>
+<tip>Increase statue health.</tip>
+</statueHealth>
+
+<passiveIncomeGold1>
+<name>Passive Income Gold I</name>
+<cost>150</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>600</time>
+<tip>Passively gain a small amount of gold and mana every few seconds.</tip>
+</passiveIncomeGold1>
+
+<passiveIncomeGold2>
+<name>Passive Income Gold II</name>
+<cost>150</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>600</time>
+<tip>Passively gain a small amount of gold and mana every few seconds.</tip>
+</passiveIncomeGold2>
+
+<passiveIncomeGold3>
+<name>Passive Income Gold III</name>
+<cost>150</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>600</time>
+<tip>Passively gain a small amount of gold and mana every few seconds.</tip>
+</passiveIncomeGold3>
+
+<passiveIncomeMana>
+<name>Passive Income Gold</name>
+<cost>50</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>600</time>
+<tip>default tip</tip>
+</passiveIncomeMana>
+
+<wingidonSpeed>
+<name>Wingidon Haste</name>
+<cost>125</cost>
+<mana>75</mana>
+<tip>Using this spell will make Eclipsors fly faster for a short period of time, at the cost of not being able to shoot.</tip>
+<time>360</time>
+</wingidonSpeed>
+
+<dartSpray>
+<name>Dart Spray</name>
+<cost>200</cost>
+<mana>50</mana>
+<tip>using this spell will make the turret spawn a Circle of darts doing massive damage to enemys.</tip>
+<time>360</time>
+</dartSpray>
+
+<towerExplotion>
+<name>Tower Explotion</name>
+<cost>150</cost>
+<mana>100</mana>
+<tip>After a unit destroyes a Tower it will trigger an explotion, doing small dmg and fire dmg.</tip>
+<time>600</time>
+</towerExplotion>
+
+<deadPoison>
+<name>Poison Guts</name>
+<tip>Deads can toggle on and off the ability to have their projectiles inflict poison.</tip>
+<cost>300</cost>
+<mana>0</mana>
+<time>600</time>
+</deadPoison>
+
+<catPack>
+<name>Pack Mentality</name>
+<tip>Increasing the amount of Crawlers in your army will increase the damage of all Crawlers.</tip>
+<cost>200</cost>
+<mana>100</mana>
+<time>1800</time>
+</catPack>
+
+
+<giantSize1>
+<name>Giant Growth I</name>
+<cost>200</cost>
+<mana>200</mana>
+<effect>1</effect>
+<time>1200</time>
+<tip>Your Giants will increase in size and health.</tip>
+</giantSize1>
+
+<giantSize2>
+<name>Giant Growth II</name>
+<cost>400</cost>
+<mana>400</mana>
+<effect>1</effect>
+<time>1800</time>
+<tip>Your Giants will increase in size and health dramatically.</tip>
+</giantSize2>
+
+<giantSize3>
+<name>Giant Growth III</name>
+<cost>0</cost>
+<mana>0</mana>
+<effect>1</effect>
+<time>0</time>
+<tip>Your Giants will become kind of invincible(Ase's Son tools only).</tip>
+</giantSize3>
+
+
+<castleArchers>
+<num>4</num>
+</castleArchers>
+
+<castleArchers1>
+<name>Castle Dead I</name>
+<tip>An untargetable powerful Dead will appear high on your castle walls out of reach from the enemy.</tip>
+<num>5</num>
+<cost>300</cost>
+<mana>0</mana>
+<time>300</time>
+</castleArchers1>
+
+<castleArchers2>
+<name>Castle Dead level II</name>
+<tip>A 2nd untargetable powerful Dead will appear high on your castle walls out of reach from the enemy.</tip>
+<num>5</num>
+<cost>600</cost>
+<mana>0</mana>
+<time>500</time>
+</castleArchers2>
+
+<castleArchers3>
+<name>Castle Archer</name>
+<tip>A 3rd untargetable powerful Dead will appear high on your castle walls out of reach from the enemy.</tip>
+<num>5</num>
+<cost>1000</cost>
+<mana>0</mana><time>700</time>
+
+</castleArchers3>
+
+<castleArchers4>
+<name>Castle Archer</name>
+<tip>Defensive castle archer that outranges all units</tip>
+<num>5</num>
+<cost>600</cost>
+<mana>0</mana>
+<time>800</time>
+</castleArchers4>
+
+<castleArchers5>
+<name>Castle Archer</name>
+<tip>Defensive castle archer that outranges all units</tip>
+<num>5</num>
+<cost>700</cost>
+<mana>0</mana>
+<time>900</time>
+</castleArchers5>
+
+<medusaPoison>
+<name>Venom Flux</name>
+<tip>Medusa and head of snakes spit a grotesk pool of poison on the ground.</tip>
+<num>5</num>
+<cost>200</cost>
+<mana>0</mana>
+<time>900</time>
+</medusaPoison>
+
+<knightCharge>
+<name>Charge</name>
+<tip>Jugger Knight will charge forward smashing into units.</tip>
+<num>5</num>
+<cost>50</cost>
+<mana>100</mana>
+<time>1200</time>
+</knightCharge>
+
+<skeletonFistAttack>
+<name>Hell Fists</name>
+<tip>A powerful line of fists will smash up from the ground causing instant damage to anything in its path.</tip>
+<num>5</num>
+<cost>50</cost>
+<mana>100</mana>
+<time>1200</time>
+</skeletonFistAttack>
+
+<catSpeed>
+<name>Predatory Edge</name>
+<tip>Massive run speed increase for Crawlers.</tip>
+<num>5</num>
+<cost>50</cost>
+<mana>100</mana>
+<time>2100</time>
+</catSpeed>
+</Tech>
+<Units>
+
+<miner>
+<name>Enslaved Miner</name>
+<info>Hard working miner.</info>
+<role>Worker</role>
+<saying>We had no choice.</saying>
+<hotkey>81</hotkey>
+<gold>150</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>240</cooldown>
+
+
+<armoured>0</armoured>
+
+<damage>4</damage>
+<toArmour>2</toArmour>
+<toNotArmour>0</toNotArmour>
+<health>65</health>
+<upgradedHealth>90</upgradedHealth>
+<weaponReach>80</weaponReach>
+<mass>200</mass>
+<maxForce>80</maxForce>
+<dragForce>0.89</dragForce>
+<scale>0.9</scale>
+<maxVelocity>2.5</maxVelocity>
+<upgradedMaxVelocity>4</upgradedMaxVelocity>
+<amour>1</amour>
+
+<bagSize>75</bagSize>
+<miningRate>37.5</miningRate>
+<manaMineRate>7.5</manaMineRate>
+<population>2</population>
+
+<tower>
+<name>Construct Tower</name>
+<info>Instructs miner to build a static tower to defend a position.</info>
+<hotkey>81</hotkey>
+<gold>300</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>600</cooldown>
+
+<constructTime>400</constructTime>
+<constructRange>50</constructRange>
+</tower>
+</miner>
+
+<bomber>
+<name>Bomber</name>
+<info>Single use bomber unit. Explodes with area of effect damage. Best used against multiple oponents.</info>
+<role>AOE Assassin</role>
+<saying>Medusa wants you to have this!</saying>
+<hotkey>87</hotkey>
+<gold>75</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>240</cooldown>
+
+<armoured>0</armoured>
+<damage>0</damage>
+<toArmour>5</toArmour>
+<toNotArmour>0</toNotArmour>
+<health>20</health>
+<weaponReach>40</weaponReach>
+<mass>100</mass>
+<maxForce>80</maxForce>
+<dragForce>0.89</dragForce>
+<scale>0.7</scale>
+<maxVelocity>7.5</maxVelocity>
+<population>1</population>
+<explosionRadius>100</explosionRadius>
+<explosionDamage>20</explosionDamage>
+
+<fireDamage>.0625</fireDamage>
+<fireFrames>160</fireFrames>
+
+<detonate>
+<name>Detonate Explosive</name>
+<info>Manual detonation of Bomber's explosives.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+
+</detonate>
+
+</bomber>
+
+<cat>
+<name>Crawler</name>
+<info>Quick unit that gains an attack advantage when fighting in a pack.</info>
+<role>Light Melee/Scout</role>
+<saying>Meeyowww!</saying>
+<hotkey>87</hotkey>
+<gold>100</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>330</cooldown>
+
+<armoured>0</armoured>
+<damage>5</damage>
+<toArmour>0</toArmour>
+<toNotArmour>2</toNotArmour>
+<health>55</health>
+<weaponReach>80</weaponReach>
+<mass>100</mass>
+<maxForce>110</maxForce>
+<dragForce>0.89</dragForce>
+<scale>.8</scale>
+<maxVelocity>7.5</maxVelocity>
+<slowMaxVelocity>6</slowMaxVelocity>
+<population>1</population>
+
+
+
+<pack>
+<name>Pack Mentality</name>
+<info>As more crawlers enter the battlefield each crawlers damage output is increased. Stacks up to 5 times.</info>
+<hotkey>87</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+
+<damagePerUnit>1.2</damagePerUnit>
+<stacks>5</stacks>
+</pack>
+</cat>
+
+<knight>
+<name>Jugger Knight</name>
+<info>Solid melee unit that is able to initiate battle with a devastating charge.</info>
+<role>Melee</role>
+<saying>Chaaaaaarrrrrrrrgeeee!</saying>
+<hotkey>87</hotkey>
+<gold>450</gold>
+<mana>50</mana>
+<effect>0</effect>
+<cooldown>600</cooldown>
+
+<armoured>1</armoured>
+<damage>15</damage>
+<toArmour>0</toArmour>
+<toNotArmour>5</toNotArmour>
+<health>400</health>
+<weaponReach>80</weaponReach>
+<mass>150</mass>
+<maxForce>100</maxForce>
+<dragForce>0.89</dragForce>
+<scale>1.00</scale>
+<maxVelocity>5.8</maxVelocity>
+<population>3</population>
+
+<charge>
+<name>Charge</name>
+<info>Causes the unit to charge in a straight line straight up the battlefield. Stuns the first unit that is hit by this charge.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>15</mana>
+<effect>50</effect>
+<cooldown>500</cooldown>
+
+
+<damage>25</damage>
+<stun>100</stun>
+<velocity>15</velocity>
+<force>200</force>
+<stunForce>10</stunForce>
+<stunArea>100</stunArea>
+
+
+</charge>
+
+
+</knight>
+
+<skelator>
+<name>Marrowkai</name>
+<info>Powerful mage that is able to fear units into combat and damage units in a line.</info>
+<role>Spellcaster</role>
+<saying>I am all that is left.</saying>
+<hotkey>81</hotkey>
+<gold>400</gold>
+<mana>400</mana>
+<effect>30</effect>
+<cooldown>600</cooldown>
+
+
+<armoured>0</armoured>
+<damage>20</damage>
+<toArmour>0</toArmour>
+<toNotArmour>0</toNotArmour>
+<health>250</health>
+<weaponReach>80</weaponReach>
+<mass>100</mass>
+<maxForce>60</maxForce>
+<dragForce>0.89</dragForce>
+<scale>1.2</scale>
+<maxVelocity>3</maxVelocity>
+<population>4</population>
+
+<fist>
+<name>Undead Fists</name>
+<info>Summons undead fists from the grave to damage units in a line.</info>
+<hotkey>87</hotkey>
+<gold>0</gold>
+<mana>20</mana>
+<effect>0</effect>
+<cooldown>600</cooldown>
+
+<range>500</range>
+<damage>45</damage>
+<area>6</area>
+</fist>
+
+<reaper>
+<name>Reaper</name>
+<info>Reaps an enemy unit into moving towards your army.</info>
+
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>10</mana>
+<effect>0</effect>
+<cooldown>480</cooldown>
+
+<range>715</range>
+<mana>0</mana>
+<amplification>.15</amplification>
+<frames>100</frames>
+<damage>40</damage>
+</reaper>
+</skelator>
+
+<medusa>
+<name>Medusa</name>
+<info>Master of poison</info>
+<role>Spellcaster</role>
+<saying>You fools thought Inamorta belonged to you?</saying>
+<hotkey>87</hotkey>
+<gold>500</gold>
+<mana>400</mana>
+<effect>0</effect>
+<cooldown>900</cooldown>
+
+<armoured>0</armoured>
+<damage>14</damage>
+<toArmour>0</toArmour>
+<superDamage>50</superDamage>
+<toNotArmour>0</toNotArmour>
+<health>250</health>
+<superHealth>2000</superHealth>
+<weaponReach>80</weaponReach>
+<mass>100</mass>
+<maxForce>60</maxForce>
+<dragForce>0.89</dragForce>
+<scale>1.2</scale>
+<superScale>2</superScale>
+<maxVelocity>3</maxVelocity>
+<population>5</population>
+
+<stone>
+<name>Stone Face</name>
+<info>Stones the opponent instantly killing any non giant unit.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>50</mana>
+<effect>0</effect>
+<cooldown>800</cooldown>
+<superCooldown>300</superCooldown>
+
+<range>600</range>
+<damageToArmour>300</damageToArmour>
+<damageToNotArmour>400</damageToNotArmour>
+</stone>
+
+<poison>
+<name>Poison Spray</name>
+<info>Sprays a poison over the ground.</info>
+<hotkey>87</hotkey>
+<gold>0</gold>
+<mana>30</mana>
+<effect>0</effect>
+<cooldown>500</cooldown>
+<poison>9</poison>
+<range>160</range>
+<area>200</area>
+<time>900</time>
+</poison>
+
+</medusa>
+
+<giant>
+<name>Giant</name>
+<info>Clobbers the opponent causing area of effect damage.</info>
+<role>Heavy Melee/Tank</role>
+<saying>Stop moving puny things.</saying>
+<hotkey>87</hotkey>
+<gold>1500</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>1200</cooldown>
+<armoured>1</armoured>
+<damage>35</damage>
+<toArmour>25</toArmour>
+<toNotArmour>0</toNotArmour>
+<health>1000</health>
+<weaponReach>150</weaponReach>
+<mass>1500</mass>
+<maxForce>2000</maxForce>
+<dragForce>0.89</dragForce>
+<scale>2.2</scale>
+<maxVelocity>3</maxVelocity>
+<population>7</population>
+
+<healthI>1350</healthI>
+<healthII>1800</healthII>
+<healthIII>5000</healthIII>
+<growthIScale>2.5</growthIScale>
+<growthIIScale>3</growthIIScale>
+<growthIIIScale>4</growthIIIScale>
+<maxTargetsToHit>3</maxTargetsToHit>
+<maxTargetsToHitIII>5</maxTargetsToHitIII>
+<stunTime>45</stunTime>
+
+</giant>
+
+<wingidon>
+<name>Eclipsor</name>
+<info>A flying winged archer.</info>
+<role>Air Ranged</role>
+<saying>Shadows can hurt.</saying>
+<hotkey>81</hotkey>
+<gold>400</gold>
+<mana>150</mana>
+<effect>0</effect>
+<cooldown>600</cooldown>
+
+<damage>13</damage>
+<toArmour>0</toArmour>
+<toNotArmour>5</toNotArmour>
+<armoured>0</armoured>
+<health>90</health>
+<mass>75</mass>
+<maxForce>70</maxForce>
+<dragForce>0.89</dragForce>
+<scale>1.2</scale>
+<maxVelocity>5</maxVelocity>
+<arrowVelocity>25</arrowVelocity>
+
+<legRotateAngleWhenFlying>30</legRotateAngleWhenFlying>
+<maximumRange>625</maximumRange>
+<population>3</population>
+
+<wind>
+<name>Wind</name>
+<info>Repels enemy ranged attacks</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>100</mana>
+<effect>100</effect>
+<cooldown>900</cooldown>
+
+
+<strength>3</strength>
+</wind>
+
+<wingidonSpeed>
+<name>Wingidon Haste</name>
+<info>Burst of accelerated wing movement at the cost of being able to shoot.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>25</mana>
+<effect>180</effect>
+<cooldown>600</cooldown>
+<strength>2.5</strength>
+</wingidonSpeed>
+
+</wingidon>
+
+<dead>
+<name>Dead</name>
+<info>A zombie that uses pieces of its own body as projectiles.</info>
+<role>Range/Tank</role>
+<saying>Ugrrhgh braaaaiins!</saying>
+<hotkey>81</hotkey>
+<gold>300</gold>
+<mana>100</mana>
+<effect>100</effect>
+<cooldown>450</cooldown>
+
+<damage>8</damage>
+<toArmour>5</toArmour>
+<toNotArmour>0</toNotArmour>
+
+<castleDamage>10</castleDamage>
+<castleToArmour>15</castleToArmour>
+<castleToNotArmour>0</castleToNotArmour>
+<castleRange>1350</castleRange>
+<castlePoison>6</castlePoison>
+
+<armoured>1</armoured>
+<health>175</health>
+<mass>75</mass>
+<maxForce>40</maxForce>
+<dragForce>0.89</dragForce>
+<scale>1</scale>
+<maxVelocity>3</maxVelocity>
+<arrowVelocity>20</arrowVelocity>
+<amour>0</amour>
+
+<maximumRange>700</maximumRange>
+<population>3</population>
+
+<poison>
+<name>Poisoned Guts</name>
+<info>A toggle that activates poison mode.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>10</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+
+<damage>6</damage>
+</poison>
+
+
+</dead>
+
+<tower>
+<name>Tower</name>
+<info>A tower that fires missiles at the enemy.</info>
+<hotkey>81</hotkey>
+<gold>300</gold>
+<mana>0</mana>
+<effect>100</effect>
+<cooldown>450</cooldown>
+<damage>20</damage>
+<toArmour>4</toArmour>
+<toNotArmour>0</toNotArmour>
+<armoured>1</armoured>
+<health>250</health>
+<mass>75</mass>
+<maxForce>40</maxForce>
+<dragForce>0.89</dragForce>
+<scale>1</scale>
+<maxVelocity>3</maxVelocity>
+<arrowVelocity>40</arrowVelocity>
+<maximumRange>400</maximumRange>
+<population>0</population>
+<shotRate>35</shotRate>
+
+<remove>
+<name>Destroy Tower</name>
+<info>Destroys the selected tower.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+</remove>
+
+<dartSpray>
+<name>Dart Spray</name>
+<info>The tower will spray Darts in a circle doing massive dmg to the enemy.</info>
+<hotkey>82</hotkey>
+<gold>0</gold>
+<mana>100</mana>
+<effect>0</effect>
+<cooldown>120</cooldown>
+</dartSpray>
+
+<towerExplotion>
+<explosionDamage>5</explosionDamage>
+<fireDamage>.0625</fireDamage>
+<fireFrames>160</fireFrames>
+</towerExplotion>
+
+</tower>
+
+</Units>
+</Chaos>
+
+<Order>
+<maxWalls>2</maxWalls>
+
+<Tech>
+
+<castleArchers>
+<num>4</num>
+</castleArchers>
+
+
+
+<passiveIncomeGold1>
+<name>Passive Income Gold 1</name>
+<cost>150</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>600</time>
+<tip>Passively gain a small amount of gold and mana every few seconds. </tip>
+</passiveIncomeGold1>
+
+<passiveIncomeGold2>
+<name>Passive Income Gold 2</name>
+<cost>150</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>600</time>
+<tip>Passively gain a small amount of gold and mana every few seconds.  </tip>
+</passiveIncomeGold2>
+
+<passiveIncomeGold3>
+<name>Passive Income Gold 3</name>
+<cost>150</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>600</time>
+<tip>Passively gain a small amount of gold and mana every few seconds.  Increasing the amount gained with each level up to a maximum of 3 levels</tip>
+</passiveIncomeGold3>
+
+<passiveIncomeMana>
+<name>Passive Income Mana</name>
+<cost>50</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>600</time>
+<tip>default tip</tip>
+</passiveIncomeMana>
+
+<castleArchers1>
+<name>Castle Archer</name>
+<tip>An untargetable powerful Archidon will appear high on your castle walls out of reach from the enemy.</tip>
+<num>5</num>
+<cost>300</cost>
+<mana>0</mana>
+<time>300</time>
+</castleArchers1>
+
+<castleArchers2>
+<name>Castle Archer</name>
+<tip>A second untargetable powerful Archidon will appear high on your castle walls out of reach from the enemy.</tip>
+<num>5</num>
+<cost>600</cost>
+<mana>0</mana>
+<time>500</time>
+</castleArchers2>
+
+<castleArchers3>
+<name>Castle Archer</name>
+<tip>A third untargetable powerful Archidon will appear high on your castle walls out of reach from the enemy.</tip>
+<num>5</num>
+<cost>1000</cost>
+<mana>0</mana>
+<time>700</time>
+</castleArchers3>
+
+<castleArchers4>
+<name>Castle Archer</name>
+<tip>A 4th untargetable powerful Archidon will appear high on your castle walls out of reach from the enemy.</tip>
+<num>5</num>
+<cost>600</cost>
+<mana>0</mana>
+<time>800</time>
+</castleArchers4>
+
+<castleArchers5>
+<name>Castle Archer</name>
+<tip>Defensive castle archer that outranges all units</tip>
+<num>5</num>
+<cost>700</cost>
+<mana>0</mana>
+<time>900</time>
+</castleArchers5>
+
+
+<flyingCrossbowmanStun>
+<name>Stun</name>
+<tip>Defensive castle archer that outranges all units</tip>
+<cost>100</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>300</time>
+</flyingCrossbowmanStun>
+
+<rage>
+<name>Rage</name>
+<cost>50</cost>
+<mana>50</mana>
+<effect>1</effect>
+<time>1350</time>
+<tip>Increased attack and movement speed for a short period of time. Upon activation the Swordwrath will lose a small portion of health.</tip>
+</rage>
+
+<block>
+<name>Shield Wall</name>
+<cost>50</cost>
+<mana>50</mana>
+<effect>1</effect>
+<time>600</time>
+<tip>Speartons will move into a defensive stance reducing incoming damage by 40%.</tip>
+</block>
+
+<spearThrow>
+<name>Spear Throw</name>
+<cost>100</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>300</time>
+<tip>default tip</tip>
+</spearThrow>
+
+<cloak>
+<name>Shinobi Level I</name>
+<cost>100</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>900</time>
+<tip>Cloak and the next attack out of Shinobi will do increased damage and inflict poison on the enemy.</tip>
+</cloak>
+
+<cloak2>
+<name>Cloak Level 2</name>
+<cost>150</cost>
+<mana>150</mana>
+<effect>1</effect>
+<time>900</time>
+<tip>Cloak and the next attack out of Shinobi will do massive increased damage and inflict poison on the enemy.</tip>
+</cloak2>
+
+<ninjaCriticalStrike>
+<name>Critical Strike</name>
+<cost>100</cost>
+<mana>200</mana>
+<effect>1</effect>
+<time>1200</time>
+<tip>default tip</tip>
+</ninjaCriticalStrike>
+
+
+
+
+<hardShot>
+<name>Hard Shot</name>
+<cost>100</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>300</time>
+<tip>default tip</tip>
+</hardShot>
+
+<archidonQuickFire>
+<name>Quick Fire</name>
+<cost>100</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>300</time>
+<tip>default tip</tip>
+</archidonQuickFire>
+
+<archidonFire>
+<name>Fire Arrows</name>
+<cost>50</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>1200</time>
+<tip>Fire a single flaming arrow with extra range and damage.</tip>
+</archidonFire>
+
+<archidonPoison>
+<name>Poison</name>
+<cost>100</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>300</time>
+<tip>default tip</tip>
+</archidonPoison>
+
+<cure>
+<name>Cure</name>
+<cost>100</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>300</time>
+<tip>A spell to cure a single poisoned unit.</tip>
+</cure>
+
+<reveal>
+<name>Reveal</name>
+<cost>100</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>300</time>
+<tip>default tip</tip>
+</reveal>
+
+
+<magikillWall>
+<name>Magikill Wall</name>
+<cost>100</cost>
+<mana>150</mana>
+<effect>1</effect>
+<time>1200</time>
+<tip>Allows Magikill to cast a wall of electricty that damages all units that stand within it.</tip>
+</magikillWall>
+
+<magikillNuke>
+<name>Nuke</name>
+<cost>100</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>300</time>
+<tip>default tip</tip>
+</magikillNuke>
+
+<magikillPoison>
+<name>Poison Spray</name>
+<cost>50</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>600</time>
+<tip>A directional spell that sprays multiple units infecting them with poison.</tip>
+</magikillPoison>
+
+<speartonShieldBash>
+<name>Shield Bash</name>
+<cost>50</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>600</time>
+<tip>Speartons will smash back the enemy with their shields.</tip>
+</speartonShieldBash>
+
+<statueHealth>
+<name>Resilience</name>
+<cost>50</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>600</time>
+<tip>Increased statue health.</tip>
+</statueHealth>
+
+<giantSize1>
+<name>Giant Growth I</name>
+<cost>200</cost>
+<mana>200</mana>
+<effect>1</effect>
+<time>1200</time>
+<tip>Your Giants will increase in size and health.</tip>
+</giantSize1>
+
+<giantSize2>
+<name>Giant Growth II</name>
+<cost>400</cost>
+<mana>400</mana>
+<effect>1</effect>
+<time>1800</time>
+<tip>Your Giants will increase in size and health dramatically.</tip>
+</giantSize2>
+
+
+<minerSpeed>
+<name>Miner Hustle</name>
+<cost>300</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>600</time>
+<tip>Increases miner speed and health.</tip>
+</minerSpeed>
+
+<goldPassive1>
+<name>Passive Income</name>
+<cost>500</cost>
+<mana>100</mana>
+<effect>1</effect>
+<time>400</time>
+<tip>Increases the amount of passive income.</tip>
+</goldPassive1>
+
+
+
+
+<minerWall>
+<name>Miner Wall</name>
+<cost>100</cost>
+
+<mana>0</mana>
+<effect>1</effect>
+<time>330</time>
+<tip>Constructs a wall that blocks the enemy.</tip>
+
+</minerWall>
+
+<crossbowFire>
+<name>Blazing Bolts</name>
+<cost>400</cost>
+<mana>0</mana>
+<effect>1</effect>
+<time>1200</time>
+<tip>Allbowtross fire flaming bolts with increased damage.</tip>
+
+</crossbowFire>
+
+</Tech>
+
+<Units>
+
+<statue>
+<health>1600</health>
+<amour>1</amour>
+<upgradedHealth>2750</upgradedHealth>
+</statue>
+
+<swordwrath>
+<name>Swordwrath</name>
+<info>High damaging unit with low survivability</info>
+<role>Melee</role>
+<saying>Limbs will sever at mere sight!</saying>
+<hotkey>50</hotkey>
+<gold>125</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>360</cooldown>
+
+
+<armoured>0</armoured>
+<health>85</health>
+<weaponReach>90</weaponReach>
+
+<damage>9</damage>
+<rageDamage>0</rageDamage>
+<toArmour>6</toArmour>
+<toNotArmour>0</toNotArmour>
+
+
+<dragForce>0.89</dragForce>
+<maxForce>100</maxForce>
+<mass>100</mass>
+<scale>1.0</scale>
+<maxVelocity>5.0</maxVelocity>
+
+<rage>
+<name>Rage</name>
+<info>Increase in attack speed and movement speed at the cost of a small portion of health.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>170</effect>
+<cooldown>60</cooldown>
+
+<healthLoss>15</healthLoss>
+<damageIncrease>0</damageIncrease>
+<rageMaxVelocity>7</rageMaxVelocity>
+</rage>
+
+<amour>0</amour>
+<population>1</population>
+</swordwrath>
+
+<spearton>
+<name>Spearton</name>
+<info>Defensive unit used to tank damage</info>
+<role>Melee/Tank</role>
+<saying>Born to die, But not before them!</saying>
+<hotkey>52</hotkey>
+<gold>450</gold>
+<mana>50</mana>
+<effect>0</effect>
+<cooldown>600</cooldown>
+
+
+
+<armoured>1</armoured>
+<damage>12</damage>
+<toArmour>0</toArmour>
+<toNotArmour>5</toNotArmour>
+<createTime>600</createTime>
+<health>400</health>
+<weaponReach>90</weaponReach>
+<mass>150</mass>
+<maxForce>100</maxForce>
+<dragForce>0.89</dragForce>
+<scale>0.9</scale>
+<maxVelocity>5.8</maxVelocity>
+<population>3</population>
+
+
+
+<shieldWall>
+<name>Shield Wall</name>
+<info>Toggles shield wall that reduces damage taken by 40% but removes ability to move.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+
+<damageReduction>0.375</damageReduction>
+</shieldWall>
+
+<shieldBash>
+<name>Shield Bash</name>
+<info>While in the shield wall state, spearton uses shield to push back opponents.</info>
+<hotkey>87</hotkey>
+<gold>0</gold>
+<mana>10</mana>
+<effect>0</effect>
+
+<cooldown>180</cooldown>
+<damage>25</damage>
+<stunTime>100</stunTime>
+<stunForce>9</stunForce>
+<range>100</range>
+</shieldBash>
+
+</spearton>
+
+
+<ninja>
+<name>Shadowrath</name>
+<info>Cloak and the next attack out of Shinobi will do increased damage and inflict poison on the enemy.</info>
+<role>Scout/Assassin</role>
+<saying>The last thing you never see.</saying>
+<hotkey>54</hotkey>
+<gold>450</gold>
+<mana>150</mana>
+<effect>0</effect>
+<cooldown>750</cooldown>
+
+
+<armoured>0</armoured>
+<damage>14</damage>
+<toArmour>0</toArmour>
+<toNotArmour>5</toNotArmour>
+<health>250</health>
+<weaponReach>120</weaponReach>
+<mass>50</mass>
+<maxForce>60</maxForce>
+<dragForce>0.89</dragForce>
+<scale>0.9</scale>
+<ninjaCopyDistance>.5</ninjaCopyDistance>
+<maxVelocity>7.5</maxVelocity>
+<population>4</population>
+
+<fury>
+<name>Fury</name>
+<info>Damage increases with successive hits on a single target. Stacks up to 5 times.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+
+<stacks>5</stacks>
+<bonus>5</bonus>
+<furyEffect>120</furyEffect>
+
+</fury>
+
+<stealth>
+<name>Stealth</name>
+<info>Allows the ninja to cloak for a period of time. Will not take damage and is not targatable by enemies during this state.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>30</mana>
+<effect>200</effect>
+<cooldown>900</cooldown>
+
+<maxVelocity>4.5</maxVelocity>
+
+<damageToArmour>25</damageToArmour>
+<damageToNotArmour>50</damageToNotArmour>
+<poison>4</poison>
+
+<damageToArmour2>100</damageToArmour2>
+<damageToNotArmour2>200</damageToNotArmour2>
+<poison2>8</poison2>
+</stealth>
+
+
+
+</ninja>
+
+
+<magikill>
+<name>Magikill</name>
+<info>A damage dealing spell caster unit.</info>
+<role>Spellcaster</role>
+<saying>Today we summon unity!</saying>
+<hotkey>56</hotkey>
+<gold>500</gold>
+<mana>400</mana>
+<effect>0</effect>
+<cooldown>900</cooldown>
+
+
+<armoured>0</armoured>
+<damage>5</damage>
+<toArmour>0</toArmour>
+<toNotArmour>0</toNotArmour>
+<health>200</health>
+<weaponReach>90</weaponReach>
+<mass>80</mass>
+<maxForce>60</maxForce>
+<dragForce>0.89</dragForce>
+<scale>1</scale>
+<maxVelocity>3</maxVelocity>
+
+<nuke>
+<name>Explosion</name>
+<info>Casts a small area of effect explosion .</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>400</cooldown>
+
+
+
+<damage>20</damage>
+<area>130</area>
+<range>420</range>
+
+<fireDamage>.25</fireDamage>
+<fireFrames>270</fireFrames>
+
+</nuke>
+
+<electricWall>
+<name>Electric Wall</name>
+<info>A line of electricty that damages all units across the field.</info>
+<hotkey>69</hotkey>
+<gold>0</gold>
+<mana>35</mana>
+<effect>0</effect>
+<cooldown>360</cooldown>
+
+<time>180</time>
+<area>75</area>
+<range>400</range>
+<damage>16</damage>
+<frequency>15</frequency>
+</electricWall>
+
+<poisonSpray>
+<name>Poison Spray</name>
+<info>A spray of poison damages all units in a line.</info>
+<hotkey>87</hotkey>
+<gold>0</gold>
+<mana>50</mana>
+<effect>0</effect>
+<cooldown>300</cooldown>
+<time>60</time>
+<range>700</range>
+<area>80</area>
+<damage>10</damage>
+</poisonSpray>
+
+
+<population>5</population>
+</magikill>
+
+<monk>
+<name>Meric</name>
+<info>A support unit that is able to heal and cure your front line troops.</info>
+<role>Support</role>
+<saying>All is well, I cast a spell!</saying>
+<hotkey>55</hotkey>
+<gold>300</gold>
+<mana>200</mana>
+<effect>0</effect>
+<cooldown>450</cooldown>
+
+<armoured>0</armoured>
+<damage>8</damage>
+<toArmour>0</toArmour>
+<toNotArmour>0</toNotArmour>
+<health>180</health>
+<weaponReach>90</weaponReach>
+<mass>50</mass>
+<maxForce>60</maxForce>
+<dragForce>0.89</dragForce>
+<scale>0.9</scale>
+<maxVelocity>3</maxVelocity>
+<amour>0</amour>
+
+<heal>
+<name>Heal</name>
+<info>Heals a single unit.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>75</cooldown>
+
+<amount>20</amount>
+<duration>1</duration>
+<range>450</range>
+</heal>
+
+<cure>
+<name>Cure</name>
+<info>Cures a single unit.</info>
+<hotkey>87</hotkey>
+<gold>0</gold>
+<mana>5</mana>
+<effect>0</effect>
+<cooldown>90</cooldown>
+
+<range>450</range>
+</cure>
+
+<population>3</population>
+</monk>
+
+
+
+<archer>
+<name>Archidon</name>
+<info>Basic ranged infantry. Strong in large numbers.</info>
+<role>Light Ranged</role>
+<saying>They will fall before they get a chance to stand.</saying>
+<hotkey>51</hotkey>
+<gold>300</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>450</cooldown>
+
+<damage>9</damage>
+<toArmour>0</toArmour>
+<toNotArmour>4</toNotArmour>
+<castleDamage>14</castleDamage>
+<castleToArmour>0</castleToArmour>
+<castleToNotArmour>0</castleToNotArmour>
+<castleRange>1350</castleRange>
+<castleArea>100</castleArea>
+<castleAreaDamage>8</castleAreaDamage>
+
+<armoured>0</armoured>
+<health>55</health>
+<mass>75</mass>
+<maxForce>55</maxForce>
+<dragForce>0.89</dragForce>
+<scale>0.9</scale>
+<maxVelocity>4.8</maxVelocity>
+<arrowVelocity>30</arrowVelocity>
+<amour>0</amour>
+<maximumRange>700</maximumRange>
+
+
+<fire>
+<name>Fire Arrow</name>
+<info>Shoots a single fire arrow into the air with increased range and damage.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>5</mana>
+<effect>0</effect>
+<cooldown>500</cooldown>
+
+<range>1100</range>
+<velocity>27</velocity>
+<fireDamage>.0886</fireDamage>
+<fireFrames>300</fireFrames>
+</fire>
+
+<population>2</population>
+</archer>
+
+
+<flyingCrossbowman>
+<name>Albowtross</name>
+<info>A flying ranged unit.</info>
+<role>Air Heavy Ranged</role>
+<saying>Our bolts will blaze.</saying>
+<hotkey>53</hotkey>
+<gold>450</gold>
+<mana>200</mana>
+<effect>0</effect>
+<cooldown>720</cooldown>
+
+<damage>15</damage>
+<toArmour>2</toArmour>
+<toNotArmour>0</toNotArmour>
+<armoured>1</armoured>
+
+<health>135</health>
+<mass>75</mass>
+<maxForce>40</maxForce>
+<dragForce>0.89</dragForce>
+<scale>1.2</scale>
+<maxVelocity>4</maxVelocity>
+<arrowVelocity>25</arrowVelocity>
+
+<legRotateAngleWhenFlying>30</legRotateAngleWhenFlying>
+<maximumRange>650</maximumRange>
+<population>4</population>
+<fireDamageToArmour>4</fireDamageToArmour>
+<fireDamageToNotArmour>0</fireDamageToNotArmour>
+
+
+<fireDamage>.033</fireDamage>
+<fireFrames>150</fireFrames>
+
+</flyingCrossbowman>
+
+
+
+<miner>
+<name>Miner</name>
+<info>Hard working miner.</info>
+<role>Worker</role>
+<saying>Gold please.</saying>
+<hotkey>49</hotkey>
+<gold>150</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>240</cooldown>
+
+
+<armoured>0</armoured>
+
+<damage>4</damage>
+<toArmour>2</toArmour>
+<toNotArmour>0</toNotArmour>
+<health>65</health>
+<upgradedHealth>90</upgradedHealth>
+<weaponReach>80</weaponReach>
+<mass>200</mass>
+<maxForce>80</maxForce>
+<dragForce>0.89</dragForce>
+<scale>0.9</scale>
+<maxVelocity>2.5</maxVelocity>
+<upgradedMaxVelocity>4</upgradedMaxVelocity>
+<amour>1</amour>
+
+<bagSize>75</bagSize>
+<miningRate>38</miningRate>
+<manaMineRate>7.5</manaMineRate>
+<population>2</population>
+
+<wall>
+<name>Wall</name>
+<info>Instructs miner to build a wall.</info>
+<hotkey>81</hotkey>
+<gold>200</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>600</cooldown>
+
+<constructionTime>300</constructionTime>
+<constructRange>50</constructRange>
+
+
+</wall>
+
+</miner>
+
+<wall>
+<name>Blocking Wall</name>
+<info>Wall</info>
+<hotkey>81</hotkey>
+<gold>200</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>1200</cooldown>
+
+<health>400</health>
+
+<remove>
+<name>Destroy Wall</name>
+<info>Causes a wall to remove itself</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+</remove>
+</wall>
+
+<giant>
+<name>Enslaved Giant</name>
+<info>Captured from the depths of Chaos territory, against its will, the Enslaved Giant hurls giant bolders at your enemy.</info>
+<role>Heavy Ranged/Tank</role>
+<saying>I big rock throw.</saying>
+<hotkey>57</hotkey>
+<gold>1500</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>1200</cooldown>
+
+<armoured>1</armoured>
+<damage>30</damage>
+<toArmour>25</toArmour>
+<toNotArmour>0</toNotArmour>
+<debrisDamage>0</debrisDamage>
+<health>800</health>
+<maximumRange>550</maximumRange>
+<weaponReach>90</weaponReach>
+<mass>1500</mass>
+<maxForce>3000</maxForce>
+<dragForce>0.89</dragForce>
+<scale>2</scale>
+<maxVelocity>3</maxVelocity>
+<baseDamage>150</baseDamage>
+<population>7</population>
+<projectileVelocity>20</projectileVelocity>
+
+<healthI>1100</healthI>
+<healthII>1500</healthII>
+<growthIScale>2.5</growthIScale>
+<growthIIScale>3</growthIIScale>
+<stunTime>45</stunTime>
+</giant>
+
+</Units>
+</Order>
+
+<Elemental>
+<protectionAmount>.35</protectionAmount>
+<protectionTime>300</protectionTime>
+
+<Tech>
+
+<castleArchers1>
+<name>Castle Element I</name>
+<tip>An untargetable powerful Air Elemental will appear high on your castle walls out of reach from the enemy.</tip>
+<num>5</num>
+<cost>300</cost>
+<mana>0</mana>
+<time>300</time>
+</castleArchers1>
+
+<castleArchers2>
+<name>Castle Element level II</name>
+<tip>A 2nd untargetable powerful Air Elemental will appear high on your castle walls out of reach from the enemy.</tip>
+<num>5</num>
+<cost>600</cost>
+<mana>0</mana>
+<time>500</time>
+</castleArchers2>
+
+<castleArchers3>
+<name>Castle Element</name>
+<tip>A 3rd untargetable powerful Air Elemental will appear high on your castle walls out of reach from the enemy.</tip>
+<num>5</num>
+<cost>1000</cost>
+<mana>0</mana>
+<time>700</time>
+
+</castleArchers3>
+
+
+
+<split1>
+<name>Clone level 1</name>
+<tip>The unit V will gain the ability to create two clones upon command.</tip>
+<num>5</num>
+<cost>100</cost>
+<mana>100</mana>
+<time>800</time>
+</split1>
+
+<split2>
+<name>Clone level 2</name>
+<tip>The unit V's clones will do increased damage.</tip>
+<num>5</num>
+<cost>150</cost>
+<mana>150</mana>
+<time>1200</time>
+</split2>
+
+<treePoison>
+<name>Scorpling Health</name>
+<tip>Increases Scorpling health.</tip>
+<num>5</num>
+<cost>200</cost>
+<mana>200</mana>
+<time>1200</time>
+</treePoison>
+
+<treePoison2>
+<name>Scorpling Poison</name>
+<tip>Scorplings will cause poison damage.</tip>
+<num>5</num>
+<cost>200</cost>
+<mana>200</mana>
+<time>1200</time>
+</treePoison2>
+
+
+<lavaPool>
+<name>Meteor strike</name>
+<tip>Fire rain ability will include flaming meteors creating a pile of burning rocks causing burn damage.</tip>
+<num>5</num>
+<cost>300</cost>
+<mana>100</mana>
+<time>900</time>
+</lavaPool>
+
+
+<tornado>
+<name>Tornado</name>
+<tip>Unlock the Cycloids ability to cast the Tornado spell.</tip>
+<num>5</num>
+<cost>200</cost>
+<mana>100</mana>
+<time>900</time>
+</tornado>
+
+<waterHealUpgrade>
+<name>Advanced Healing</name>
+<tip>Increased the amount healed when using Sacrificial Mass Heal Ability.</tip>
+<num>5</num>
+<cost>300</cost>
+<mana>100</mana>
+<time>1200</time>
+</waterHealUpgrade>
+
+</Tech>
+<Units>
+
+
+
+
+
+<airElement>
+<name>Air Elemental</name>
+<info>A flying range unit that casts a powerful bolt of lighting on a single target.</info>
+<role>Air Light Ranged</role>
+<saying>I'm always calm before I storm.</saying>
+<hotkey>51</hotkey>
+<gold>400</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>600</cooldown>
+
+<damage>23</damage>
+<toArmour>7</toArmour>
+<toNotArmour>0</toNotArmour>
+<castleDamage>20</castleDamage>
+<castleToArmour>0</castleToArmour>
+<castleToNotArmour>0</castleToNotArmour>
+<castleRange>1350</castleRange>
+<castleArea>150</castleArea>
+<castleBurnDamage>.0633</castleBurnDamage>
+<castleBurnFrames>300</castleBurnFrames>
+
+
+
+<castleAreaDamage>8</castleAreaDamage>
+
+<armoured>0</armoured>
+<health>85</health>
+<mass>75</mass>
+<maxForce>60</maxForce>
+<dragForce>0.89</dragForce>
+<scale>0.9</scale>
+<maxVelocity>5.5</maxVelocity>
+<velocity>12</velocity>
+<amour>0</amour>
+<population>3</population>
+
+<arrowVelocity>500</arrowVelocity>
+
+<legRotateAngleWhenFlying>30</legRotateAngleWhenFlying>
+<maximumRange>580</maximumRange>
+</airElement>
+
+
+
+<waterElement>
+<name>Water Elemental</name>
+<info>Quick support unit with mass heal and cure upon death. Also has ability to freeze an enemy into a block of ice.</info>
+<role>Support/Scout</role>
+<saying>I am life you are death.</saying>
+<hotkey>51</hotkey>
+<gold>350</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>360</cooldown>
+
+<damage>0</damage>
+<toArmour>0</toArmour>
+<toNotArmour>4</toNotArmour>
+<castleDamage>14</castleDamage>
+<castleToArmour>0</castleToArmour>
+<castleToNotArmour>0</castleToNotArmour>
+<castleRange>1350</castleRange>
+<castleArea>100</castleArea>
+<castleAreaDamage>8</castleAreaDamage>
+
+<armoured>0</armoured>
+<health>150</health>
+<mass>65</mass>
+<maxForce>55</maxForce>
+<dragForce>0.89</dragForce>
+<scale>0.9</scale>
+<maxVelocity>6.2</maxVelocity>
+<velocity>18</velocity>
+<amour>0</amour>
+<maximumRange>400</maximumRange>
+<population>2</population>
+
+
+<healRadius>250</healRadius>
+<healAmount>65</healAmount>
+<maxHealAmount>260</maxHealAmount>
+
+
+<healRadiusUpgrade>350</healRadiusUpgrade>
+<healAmountUpgrade>175</healAmountUpgrade>
+<maxHealAmountUpgrade>875</maxHealAmountUpgrade>
+
+<heal>
+<name>Sacrificial Mass Heal</name>
+<info>This unit will sacrifice itself creating a explosion of healing and curing power healing all nearby friendly units.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>300</cooldown>
+<range>800</range>
+</heal>
+</waterElement>
+
+
+<earthElement>
+<name>Earth Elemental</name>
+<info>A cheap basic ground unit with a stun attack.  It can also transform into a miner.</info>
+<role>Light Melee</role>
+<saying>We will, we will, punch you!</saying>
+<hotkey>51</hotkey>
+<gold>150</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>120</cooldown>
+<weaponReach>80</weaponReach>
+
+<damage>7</damage>
+<toArmour>6</toArmour>
+<toNotArmour>0</toNotArmour>
+<stunXForce>1</stunXForce>
+<stunYForce>1</stunYForce>
+<stunFrames>45</stunFrames>
+
+
+<armoured>0</armoured>
+<health>100</health>
+<mass>75</mass>
+<maxForce>55</maxForce>
+<dragForce>0.89</dragForce>
+<scale>1.0</scale>
+<maxVelocity>5</maxVelocity>
+<maximumRange>400</maximumRange>
+<population>2</population>
+
+</earthElement>
+
+<fireElement>
+<name>Fire Elemental</name>
+<info>A ranged ground unit that throws a ball of fire.  This unit can kite and its projectile causes burn damage.</info>
+<role>Ranged</role>
+<saying>Everything burns if its hot enough.</saying>
+<hotkey>51</hotkey>
+<gold>450</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>480</cooldown>
+
+<burnDamage>.0808</burnDamage>
+<burnFrames>210</burnFrames>
+<damage>10</damage>
+<toArmour>7</toArmour>
+<toNotArmour>0</toNotArmour>
+
+
+<armoured>0</armoured>
+<health>100</health>
+<mass>75</mass>
+<maxForce>55</maxForce>
+<dragForce>0.89</dragForce>
+<scale>0.9</scale>
+<maxVelocity>4.8</maxVelocity>
+<velocity>17</velocity>
+<amour>0</amour>
+<maximumRange>615</maximumRange>
+<population>3</population>
+
+</fireElement>
+
+
+<scorpionElement>
+<name>Scorpling</name>
+<info>A unit spawned from the mouth of the Treature.  This fast weak unit has the ability to poison with its attack if upgraded.</info>
+<role>Light Melee</role>
+<saying>Brrddttt brddttt.</saying>
+<hotkey>51</hotkey>
+<gold>0</gold>
+<mana>10</mana>
+<effect>0</effect>
+<weaponReach>80</weaponReach>
+<cooldown>30</cooldown>
+
+<damage>7</damage>
+<toArmour>0</toArmour>
+<toNotArmour>3</toNotArmour>
+
+<poisonDamage>6</poisonDamage>
+
+<level2Health>85</level2Health>
+<level2Scale>1.55</level2Scale>
+
+<armoured>0</armoured>
+<health>60</health>
+<mass>55</mass>
+<maxForce>34</maxForce>
+<dragForce>0.89</dragForce>
+<scale>1.25</scale>
+<maxVelocity>10</maxVelocity>
+<velocity>18</velocity>
+<maximumRange>400</maximumRange>
+<population>0</population>
+
+
+
+</scorpionElement>
+
+
+<treeElement>
+<name>Treature</name>
+<info>A massive slow moving caster that can spawn Scorplings and suck life from its enemies.</info>
+<role>Heavy Caster</role>
+<saying>Say hello to my little friends.</saying>
+<hotkey>51</hotkey>
+<gold>0</gold>
+<mana>150</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+
+<damage>9</damage>
+<toArmour>0</toArmour>
+<toNotArmour>4</toNotArmour>
+
+
+<armoured>1</armoured>
+<health>500</health>
+<mass>200</mass>
+<maxForce>80</maxForce>
+<dragForce>0.89</dragForce>
+<scale>1.1</scale>
+<maxVelocity>11</maxVelocity>
+<velocity>5</velocity>
+<maximumRange>400</maximumRange>
+<population>9</population>
+
+<stunAmount>30</stunAmount>
+<damageAmount>40</damageAmount>
+<healAmount>1</healAmount>
+<healDuration>40</healDuration>
+
+<scorpionSpawnManaCost>5</scorpionSpawnManaCost>
+<respawnTime>672</respawnTime>
+
+<flower>
+<name>Death Blossom</name>
+<info>Casts a row of dead flowers that chase the targeted enemy then stun them with a spike root stealing life and blossoming the dead flowers.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>30</mana>
+<effect>0</effect>
+<cooldown>560</cooldown>
+<range>800</range>
+
+
+</flower>
+<root>
+<name>Summon Scorplings</name>
+
+<info>The tree will root itself into the ground and summon Scorplings from its hollow.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>330</cooldown>
+<range>800</range>
+
+
+</root>
+
+</treeElement>
+
+<hurricaneElement>
+<name>Cycloid</name>
+<info>A flying melee support caster with the ability to protect units and throw powerful stunning tornados.</info>
+<role>Air/Support/Melee</role>
+<saying>The skies belong to me.</saying>
+<hotkey>51</hotkey>
+<gold>0</gold>
+<mana>100</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+
+<damage>20</damage>
+<toArmour>5</toArmour>
+<toNotArmour>0</toNotArmour>
+
+
+<weaponReach>100</weaponReach>
+
+<armoured>0</armoured>
+<health>250</health>
+<mass>75</mass>
+<maxForce>60</maxForce>
+<dragForce>0.89</dragForce>
+<scale>1.3</scale>
+<maxVelocity>8</maxVelocity>
+<velocity>18</velocity>
+<maximumRange>400</maximumRange>
+<population>4</population>
+
+
+
+<hurricane>
+<name>Tornado</name>
+<info>Summons a large tornado causing a path of destruction.</info>
+
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>35</mana>
+<effect>0</effect>
+<cooldown>580</cooldown>
+
+<amount>20</amount>
+<duration>1</duration>
+<range>550</range>
+<stunFrames>120</stunFrames>
+<stunForce>4</stunForce>
+<damage>30</damage>
+<area>50</area>
+</hurricane>
+
+<protect>
+<name>Protect</name>
+<info>Casts a temporary shield on itself or a targeted friendly unit.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>20</mana>
+<effect>0</effect>
+<cooldown>600</cooldown>
+
+<range>500</range>
+</protect>
+
+</hurricaneElement>
+
+<lavaElement>
+<name>Charrog</name>
+<info>Heavy armored ground infantry with the ability to burrow and burn.</info>
+<role>Melee/Tank</role>
+<saying>Soon your pain will be gone.</saying>
+<hotkey>51</hotkey>
+<gold>0</gold>
+<mana>150</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+<weaponReach>80</weaponReach>
+
+<damage>10</damage>
+<toArmour>4</toArmour>
+<toNotArmour>0</toNotArmour>
+
+<towerSpawnIIHealth>1300</towerSpawnIIHealth>
+<towerSpawnIIDamage>25</towerSpawnIIDamage>
+<towerSpawnIIScale>1.8</towerSpawnIIScale>
+
+<towerSpawnIHealth>600</towerSpawnIHealth>
+<towerSpawnIDamage>8</towerSpawnIDamage>
+
+
+<armoured>1</armoured>
+<health>650</health>
+<mass>100</mass>
+<maxForce>80</maxForce>
+<dragForce>0.89</dragForce>
+<scale>1.2</scale>
+<maxVelocity>5.4</maxVelocity>
+<maxVelocityUnderground>4.2</maxVelocityUnderground>
+<velocity>22</velocity>
+<maximumRange>400</maximumRange>
+<population>4</population>
+
+<radiant>
+<name>Radiant Heat</name>
+<info>The Charrog will glow with heat causing burn damage to all nearby units.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>30</mana>
+<effect>300</effect>
+<cooldown>600</cooldown>
+<range>75</range>
+<damage>.1</damage>
+<frames>90</frames>
+
+
+</radiant>
+
+<burrow>
+<name>Burrow</name>
+<info>The Charrog will dig itself into the ground and can not be detected or damaged by the enemy.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>550</effect>
+<cooldown>560</cooldown>
+
+<amount>20</amount>
+<duration>1</duration>
+<range>100</range>
+<damage>50</damage>
+<stun>60</stun>
+</burrow>
+<unburrow>
+<name>Unburrow</name>
+<info>The Charrog will shoot out from the ground then slam himself on down stunning and damaging nearby units.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>75</cooldown>
+
+
+</unburrow>
+
+</lavaElement>
+
+<chrome>
+<name>V</name>
+<info>A powerful caster and leader of Elementals. V can clone itself into 3, teleport and possess other units.</info>
+<role>Spellcaster/Melee</role>
+<saying>I will be your God once again!</saying>
+<hotkey>81</hotkey>
+<gold>150</gold>
+<mana>250</mana>
+<effect>0</effect>
+<cooldown>240</cooldown>
+<weaponReach>80</weaponReach>
+
+
+<armoured>0</armoured>
+
+<damage>30</damage>
+<toArmour>0</toArmour>
+<toNotArmour>5</toNotArmour>
+<health>200</health>
+<upgradedHealth>450</upgradedHealth>
+<mass>75</mass>
+<maxForce>70</maxForce>
+<dragForce>0.89</dragForce>
+<scale>0.9</scale>
+<maxVelocity>5</maxVelocity>
+
+<population>10</population>
+
+<convert>
+<name>Possess</name>
+<info>Target an enemy unit to control it for as long as you can maintain Possess mode.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>50</mana>
+<effect>0</effect>
+<cooldown>750</cooldown>
+
+<range>600</range>
+
+</convert>
+
+
+<split>
+<name>Clone</name>
+<info>Creates two identical looking V units which auto attack the enemy.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>50</mana>
+<effect>0</effect>
+<cooldown>990</cooldown>
+
+<range>400</range>
+<splitDamage1>.33</splitDamage1>
+<splitDamage2>.66</splitDamage2>
+
+<cloneAfterDeadFrames>900</cloneAfterDeadFrames>
+</split>
+
+<teleport>
+<name>Flash</name>
+<info>Instant teleportation to and through to the targeted location.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>360</cooldown>
+
+<range>600</range>
+
+</teleport>
+
+</chrome>
+
+<firestormElement>
+<name>Infernos</name>
+<info>A powerfull caster with the ability to summon the mighty dragon "Vastolis" and call down a rain of fire.</info>
+<role>Spellcaster</role>
+<saying>Awaken Vastolis, it's time to feed!</saying>
+<hotkey>81</hotkey>
+<gold>150</gold>
+<mana>125</mana>
+<effect>0</effect>
+<cooldown>240</cooldown>
+<weaponReach>80</weaponReach>
+
+
+<armoured>0</armoured>
+
+<damage>7</damage>
+<toArmour>2</toArmour>
+<toNotArmour>0</toNotArmour>
+<health>225</health>
+<upgradedHealth>90</upgradedHealth>
+<mass>200</mass>
+<maxForce>150</maxForce>
+<dragForce>0.89</dragForce>
+<scale>1</scale>
+<maxVelocity>4</maxVelocity>
+
+<population>5</population>
+
+<firestorm>
+<name>Dragon Call </name>
+<info>Summon the mighty dragon "Vastolis" from the depths to cause mass devastation to the enemy.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>30</mana>
+<effect>0</effect>
+<cooldown>900</cooldown>
+
+<range>600</range>
+<area>130</area>
+<fireFrames>100</fireFrames>
+<fireDamage>.5</fireDamage>
+<damage>80</damage>
+<stunForce>4</stunForce>
+
+
+</firestorm>
+
+<firebreath>
+<name>Fire Rain</name>
+<info>Calls down a rain of fire to the selected location inflicting burn damage on the enemy.  Upgradable to Meteor Strike for increased damage.</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>20</mana>
+<effect>0</effect>
+<cooldown>500</cooldown>
+
+<range>575</range>
+<area>250</area>
+
+<damage>11</damage>
+
+<rainDamage>10</rainDamage>
+<cometDamage>25</cometDamage>
+<poolFireFrames>35</poolFireFrames>
+<poolFireDamage>1</poolFireDamage>
+</firebreath>
+
+</firestormElement>
+
+<miner>
+<name>Chompler</name>
+<info>A hard working miner that will eat gold and collect it in his back, as well as pray for mana at the statue.  It can also attack with its sharp beak and claws.</info>
+<role>Worker</role>
+<saying>It's all about texture</saying>
+<hotkey>81</hotkey>
+<gold>150</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>240</cooldown>
+<weaponReach>80</weaponReach>
+
+
+<armoured>0</armoured>
+
+<damage>4</damage>
+<toArmour>2</toArmour>
+<toNotArmour>0</toNotArmour>
+<health>65</health>
+<upgradedHealth>90</upgradedHealth>
+<weaponReach>80</weaponReach>
+<mass>200</mass>
+<maxForce>80</maxForce>
+<dragForce>0.89</dragForce>
+<scale>1.2</scale>
+<maxVelocity>2.5</maxVelocity>
+<upgradedMaxVelocity>4</upgradedMaxVelocity>
+<amour>1</amour>
+
+<bagSize>75</bagSize>
+<miningRate>37.5</miningRate>
+<manaMineRate>7.5</manaMineRate>
+<population>2</population>
+
+
+<morph>
+<name>Morph</name>
+<info>Converts unit into a miner</info>
+<hotkey>81</hotkey>
+<gold>0</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+
+</morph>
+
+</miner>
+
+<fireWater>
+<name>Scorch</name>
+<info>The most powerful known explosion that will cause mass knock back and burn damage.</info>
+<hotkey>81</hotkey>
+<gold>150</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+
+
+<damage>65</damage>
+<burnDamage>1</burnDamage>
+<burnFrames>60</burnFrames>
+<stunFrames>55</stunFrames>
+<stunForce>1</stunForce>
+<range>200</range>
+<pushBack>25</pushBack>
+</fireWater>
+
+<sandstorm>
+<name>Blind Gate</name>
+<info>A temporary gate rises from the ground that the enemy cannot see past.</info>
+<hotkey>81</hotkey>
+<gold>150</gold>
+<mana>0</mana>
+<effect>0</effect>
+<cooldown>0</cooldown>
+<lifeFrames>1590</lifeFrames>
+</sandstorm>
+</Units>
+</Elemental>
+
+<credits>
+Originaly Created by: Jason Whitham, Brock White and Winston Zhang.
+Helped by: Sawyer Bateman, Piotr Michael, Symphony of Specters and Pepper.
+
+Developers: dyzqy/Ase's Son, SnowStrider, TheTrickster.
+
+Testers: TheOrderEmpire, 75g.
+
+Thanks to MinGames for letting us use they're code!
+
+Thanks to Stickpage.com and the Stick Page Community!
+
+©Copyright Stickpage
+</credits>
+</GameConstants>
