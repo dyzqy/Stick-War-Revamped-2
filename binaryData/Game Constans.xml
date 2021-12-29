@@ -16,7 +16,6 @@
 <hasArmory>1</hasArmory>
 <version>2.29</version>
 
-<isFogOfWar>1</isFogOfWar>
 <gravity>0.45</gravity>
 <worldScale>1</worldScale>
 <frontScale>.8</frontScale>
@@ -199,7 +198,7 @@
 <mana>100</mana>
 <effect>1</effect>
 <time>600</time>
-<tip>Passively gain a small amount of gold and mana every few seconds.</tip>
+<tip>Passively gain a small amount of gold and mana every few seconds, increasing the amount gained with each level up to a maximum of 3 levels.</tip>
 </passiveIncomeGold3>
 
 <passiveIncomeMana>
@@ -1070,7 +1069,7 @@
 <mana>150</mana>
 <effect>1</effect>
 <time>1200</time>
-<tip>Allows Magikill to cast a wall of electricty that damages all units that stand within it.</tip>
+<tip>The Magikill casts a wall of electricty that damages all enemy units that stand within it.</tip>
 </magikillWall>
 
 <magikillNuke>
@@ -1182,7 +1181,7 @@
 
 <swordwrath>
 <name>Swordwrath</name>
-<info>High damaging unit with low survivability</info>
+<info>High damaging unit with low survivability.</info>
 <role>Melee</role>
 <saying>Limbs will sever at mere sight!</saying>
 <hotkey>50</hotkey>
@@ -1210,7 +1209,7 @@
 
 <rage>
 <name>Rage</name>
-<info>Increase in attack speed and movement speed at the cost of a small portion of health.</info>
+<info>Increased attack and movement speed for a short period of time at the cost of a small portion of health.</info>
 <hotkey>81</hotkey>
 <gold>0</gold>
 <mana>0</mana>
@@ -1228,7 +1227,7 @@
 
 <spearton>
 <name>Spearton</name>
-<info>Defensive unit used to tank damage</info>
+<info>An armored unit used to tank damage, powerful when paired with ranged units.</info>
 <role>Melee/Tank</role>
 <saying>Born to die, But not before them!</saying>
 <hotkey>52</hotkey>
@@ -1269,7 +1268,7 @@
 
 <shieldBash>
 <name>Shield Bash</name>
-<info>While in the shield wall state, spearton uses shield to push back opponents.</info>
+<info>Speartons will smash back the enemy with their shields, stunning them.</info>
 <hotkey>87</hotkey>
 <gold>0</gold>
 <mana>10</mana>
@@ -1287,7 +1286,7 @@
 
 <ninja>
 <name>Shadowrath</name>
-<info>Cloak and the next attack out of Shinobi will do increased damage and inflict poison on the enemy.</info>
+<info>Fast assassins that are strong in direct combat, with potential to assassinate spellcasters through Shinobi.</info>
 <role>Scout/Assassin</role>
 <saying>The last thing you never see.</saying>
 <hotkey>54</hotkey>
@@ -1328,7 +1327,7 @@
 
 <stealth>
 <name>Stealth</name>
-<info>Allows the ninja to cloak for a period of time. Will not take damage and is not targatable by enemies during this state.</info>
+<info>The Shadowrath turns invisible, and untargettable by any enemy units. The next attack will do increased damage and inflict poison on the enemy.</info>
 <hotkey>81</hotkey>
 <gold>0</gold>
 <mana>30</mana>
@@ -1353,7 +1352,7 @@
 
 <magikill>
 <name>Magikill</name>
-<info>A damage dealing spell caster unit.</info>
+<info>A spellcaster that is able to cast a variety of damage-dealing spells.</info>
 <role>Spellcaster</role>
 <saying>Today we summon unity!</saying>
 <hotkey>56</hotkey>
@@ -1486,7 +1485,7 @@
 
 <archer>
 <name>Archidon</name>
-<info>Basic ranged infantry. Strong in large numbers.</info>
+<info>Basic ranged infantry with low health, but strong in large numbers.</info>
 <role>Light Ranged</role>
 <saying>They will fall before they get a chance to stand.</saying>
 <hotkey>51</hotkey>
@@ -1538,7 +1537,7 @@
 
 <flyingCrossbowman>
 <name>Albowtross</name>
-<info>A flying ranged unit.</info>
+<info>An armored flying ranged unit wielding a crossbow. Strong against armored enemies.</info>
 <role>Air Heavy Ranged</role>
 <saying>Our bolts will blaze.</saying>
 <hotkey>53</hotkey>
@@ -1552,7 +1551,7 @@
 <toNotArmour>0</toNotArmour>
 <armoured>1</armoured>
 
-<health>135</health>
+<health>155</health>
 <mass>75</mass>
 <maxForce>40</maxForce>
 <dragForce>0.89</dragForce>
@@ -1563,7 +1562,7 @@
 <legRotateAngleWhenFlying>30</legRotateAngleWhenFlying>
 <maximumRange>650</maximumRange>
 <population>4</population>
-<fireDamageToArmour>4</fireDamageToArmour>
+<fireDamageToArmour>6</fireDamageToArmour>
 <fireDamageToNotArmour>0</fireDamageToNotArmour>
 
 
@@ -1576,7 +1575,7 @@
 
 <miner>
 <name>Miner</name>
-<info>Hard working miner.</info>
+<info>A hard working miner, essential for gaining gold and mana.</info>
 <role>Worker</role>
 <saying>Gold please.</saying>
 <hotkey>49</hotkey>
@@ -1648,7 +1647,7 @@
 
 <giant>
 <name>Enslaved Giant</name>
-<info>Captured from the depths of Chaos territory, against its will, the Enslaved Giant hurls giant bolders at your enemy.</info>
+<info>Captured from the depths of Chaos territory, the Enslaved Giant hurls large boulders at your enemy against it's will.</info>
 <role>Heavy Ranged/Tank</role>
 <saying>I big rock throw.</saying>
 <hotkey>57</hotkey>
@@ -2430,7 +2429,7 @@ Helped by: Sawyer Bateman, Piotr Michael, Symphony of Specters and Pepper.
 
 Developers: dyzqy/Ase's Son, SnowStrider, TheTrickster.
 
-Testers: TheOrderEmpire, 75g.
+Testers: TheOrderEmpire, 75g, Reknel, CRAFTYJAY, Pyro.
 
 Thanks to MinGames for letting us use they're code!
 
@@ -2438,4 +2437,5 @@ Thanks to Stickpage.com and the Stick Page Community!
 
 ©Copyright Stickpage
 </credits>
+<isFogOfWar>1</isFogOfWar>
 </GameConstants>

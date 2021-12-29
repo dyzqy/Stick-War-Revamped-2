@@ -1,5 +1,5 @@
 <Campaign>
-<level title="Tutorial" number="1" map="2" story="Many of the empires you previously controlled are now rebels that have fled to the outskirts of their homelands. You are faced with the threat of attack. Speartons have rebuilt and declared war against your diminished army." controller="CampaignTutorial" points="1">
+<level title="Tutorial" number="1" map="2" story="Many of the empires you previously controlled are now rebels that have fled to the outskirts of their homelands. You are faced with the threat of attack. Speartons have rebuilt and declared war against your diminished army." controller="CampaignTutorial" points="2">
 <player race="Order" statueHealth="1500" >
 <unit>Swordwrath</unit>
 </player>
@@ -44,17 +44,18 @@
 <unit>Miner</unit>
 <startingUnit>Miner</startingUnit>
 <startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
 <startingUnit>Swordwrath</startingUnit>
 <UnitComposition>
-<Swordwrath>4</Swordwrath>
-<Archidon>25</Archidon>
+<Swordwrath>10</Swordwrath>
+<Archidon>35</Archidon>
 </UnitComposition>
 </oponent>
 
 
 </level>
 
-<level title="Silent Assassins: Ninjas Declare War" number="3" map="5" story="When the nations fled your control , some of the more cunning Swordwrath managed to escape and rebuild. They trained themselves into a new breed of Swordwrath more intelligent and skilled. This new race is called Shadowrath. " controller="CampaignShadow" points="1">
+<level title="Silent Assassins: Ninjas Declare War" number="3" map="5" story="When the nations fled your control, the most cunning Swordwrath managed to escape and rebuild, training themselves into a new race, Shadowrath, fast assassins being able to match against even Speartons in combat." controller="CampaignShadow" points="1">
 
 <unlock>Archidon</unlock>
 <normal>1.7</normal>
@@ -91,7 +92,7 @@
 </oponent>
 </level>
 
-<level title="Magic in the Air: Wizards and monks Declare War " number="4" map="2" story="The Rebel Magikill have trained the women of their empire in the art of magic, creating powerful Merics with the ability to heal and cure." controller="" points="1">
+<level title="Magic in the Air: Wizards and monks Declare War " number="4" map="2" story="Lack of manpower caused the Magikill to train their women in the arts of magic, creating powerful Merics with the ability to heal and cure any injury." controller="CampaignDeads" points="2">
 <hasInsaneWall>true</hasInsaneWall>
 <unlock>Ninja</unlock>
 <normal>1.7</normal>
@@ -123,14 +124,14 @@
 <startingUnit>Miner</startingUnit>
 <startingUnit>Monk</startingUnit>
 <UnitComposition>
-<Monk>2</Monk>
-<Magikill>8</Magikill>
+<Monk>4</Monk>
+<Magikill>10</Magikill>
 
 </UnitComposition>
 </oponent>
 </level>
 
-<level title="Rebels United" number="4" map="1" story="All rebels armys join together to crush the Order Empire and take back they're lands." controller="" points="1">
+<level title="Rebels United" number="4" map="1" story="All the rebel armies join together into one in a last stand to crush the Order Empire and take back their lands. Beware, the Magikill have enchanted the arrows of the Archidons, turning them into powerful fire arrows." controller="" points="2">
 <hasInsaneWall>true</hasInsaneWall>
 <unlock>Magikill</unlock>
 <unlock>Monk</unlock>
@@ -219,7 +220,7 @@
 </oponent>
 </level>
 
-<level title="Explosive War: Bombers Attack" number="7" map="2" story="Medusa vows to whipe Order Empire out of Inamorta.  Her first display of power is to  send some of her minion bombers and Giants  to destroy you." controller="CampaignBomber" points="1">
+<level title="Explosive War: Bombers Attack" number="7" map="2" story="Medusa vowed to wipe the Order Empire off the face of Inamorta. Her first display of power is to send her giants and bombers, light units with the ability to suicide, blowing up their enemies with them." controller="CampaignBomber" points="1">
 <hasInsaneWall>true</hasInsaneWall>
 <unlock>EnslavedGiant</unlock>
 <normal>1.6</normal>
@@ -266,7 +267,7 @@
 </oponent>
 </level>
 
-<level title="The Night is Dark: Juggerknights Attack" number="8" map="3" story="Medusa unleashes her most ferocious heavily armored infantry." controller="CampaignKnight" points="1">
+<level title="The Night is Dark: Juggerknights Attack" number="8" map="3" story="Medusa unleashes the Juggerknights, ferocious, heavily armored infantry that can charge into battle." controller="CampaignKnight" points="1">
 <hasInsaneWall>true</hasInsaneWall>
 <normal>1.7</normal>
 <hard>1.4</hard>
@@ -312,7 +313,7 @@
 </oponent>
 </level>
 
-<level title="Undead War: Deadly Deads Attack" number="9" map="2" story="Medusa attacks by revealing the Deads, an undead zombie that throws their own poisonous body parts." controller="CampaignDeads" points="1">
+<level title="Undead War: Deadly Deads Attack" number="9" map="2" story="Medusa reveals the Deads, reanimated corpses of fallen warriors, capable of tossing their poisonous body parts to great distances." controller="CampaignShadow" points="3">
 <hasInsaneWall>true</hasInsaneWall>
 <normal>1.8</normal>
 <hard>1.4</hard>
@@ -357,7 +358,7 @@
 </oponent>
 </level>
 
-<level title=" 4 legged Fury: Crawlers Attack" number="10" map="4" story="Medusa Unleashes the Crawlers, a fast assassin that becomes more powerful in a pack." controller="" points="1">
+<level title=" 4 legged Fury: Crawlers Attack" number="10" map="4" story="Medusa unleashes the Crawlers, fast, cheap cat-like units that excel at fighting in packs." controller="" points="1">
 <hasInsaneWall>true</hasInsaneWall>
 <normal>1.6</normal>
 <hard>1.3</hard>
@@ -400,7 +401,7 @@
 </oponent>
 </level>
 
-<level title="Shadow of the moon: Eclipsors Attack." number="11" map="0" story="Medusa's tricks seem to never end. The Eclipsor is revealed, a flying archer that can only be hit by projectile units." controller="" points="1">
+<level title="Shadow of the moon: Eclipsors Attack." number="11" map="0" story="Medusa's tricks seem to never end. She reveals the Eclipsors, flying archers that can only be hit by projectiles, with the ability to activate Wingidon Haste to greatly increase their speed." controller="" points="1">
 <hasInsaneWall>true</hasInsaneWall>
 <normal>1.7</normal>
 <hard>1.5</hard>
@@ -449,7 +450,7 @@
 </oponent>
 </level>
 
-<level title="Bone Pile: Marrowkai summon war" number="12" map="2" story="You have mimicked the flight of the Eclipsor and crafted technology to have your own  flying unit that wields a crossbow. Meanwhile a new Chaos Mage, the Marrowkai, is reaping havoc." controller="" points="1">
+<level title="Bone Pile: Marrowkai summon war" number="12" map="2" story="Your blacksmiths have mimicked the flight of the Eclipsors and crafted technology to have your own flying units wielding crossbows. Meanwhile, the undead mages of Chaos, the Marrowkai, are reaping havoc in the swamps." controller="" points="1">
 <hasInsaneWall>true</hasInsaneWall>
 <unlock>FlyingCrossbowman</unlock>
 <normal>1.65</normal>
@@ -567,7 +568,7 @@
 </oponent>
 </level>
 
-<level title="Medusa and the Full Chaos Empire: Final battle" number="14" map="7" story="You have pushed Medusa and her Chaos Empire back to their Capital. They have no where left to run. Do not hold back! Inamorta is at stake." controller="CampaignCutScene2" points="1">
+<level title="Medusa and the Full Chaos Empire: Final battle" number="14" map="7" story="Medusa and the Chaos Empire have been pushed back to their capital. There is nowhere for them to run. Good luck, Inamorta and the Order Empire is at stake." controller="CampaignCutScene2" points="1">
 <hasInsaneWall>true</hasInsaneWall>
 <normal>1.6</normal>
 <hard>1.4</hard>
@@ -628,11 +629,11 @@
 <startingUnit>SkelatalMage</startingUnit>
 
 <UnitComposition>
-<Bomber>2</Bomber>
-<Knight>2</Knight>
-<Dead>3</Dead>
-<Cat>3</Cat>
-<Wingadon>4</Wingadon>
+<Bomber>0</Bomber>
+<Knight>10</Knight>
+<Dead>8</Dead>
+<Cat>0</Cat>
+<Wingadon>2</Wingadon>
 <SkelatalMage>4</SkelatalMage>
 <Giant>2</Giant>
 <Medusa>1</Medusa>
@@ -643,13 +644,13 @@
 <Order>
 <UnitComposition>
 <Miner>16</Miner>
-<Swordwrath>7</Swordwrath>
+<Swordwrath>4</Swordwrath>
 <Archidon>8</Archidon>
-<Spearton>6</Spearton>
-<Ninja>4</Ninja>
-<FlyingCrossbowman>6</FlyingCrossbowman>
-<Monk>2</Monk>
-<Magikill>4</Magikill>
+<Spearton>10</Spearton>
+<Ninja>2</Ninja>
+<FlyingCrossbowman>3</FlyingCrossbowman>
+<Monk>4</Monk>
+<Magikill>2</Magikill>
 <EnslavedGiant>3</EnslavedGiant>
 </UnitComposition>
 </Order>
@@ -657,12 +658,12 @@
 <Chaos>
 <UnitComposition>
 <ChaosMiner>16</ChaosMiner>
-<Bomber>8</Bomber>
-<Wingadon>5</Wingadon>
+<Bomber>3</Bomber>
+<Wingadon>8</Wingadon>
 <SkelatalMage>2</SkelatalMage>
-<Dead>5</Dead>
-<Cat>6</Cat>
-<Knight>5</Knight>
+<Dead>3</Dead>
+<Cat>2</Cat>
+<Knight>10</Knight>
 <Giant>2</Giant>
 </UnitComposition>
 </Chaos>
