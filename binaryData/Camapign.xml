@@ -1,10 +1,10 @@
 <Campaign>
 <level title="Tutorial" number="1" map="2" story="Many of the empires you previously controlled are now rebels that have fled to the outskirts of their homelands. You are faced with the threat of attack. Speartons have rebuilt and declared war against your diminished army." controller="CampaignTutorial" points="2">
-<player race="Order" statueHealth="1500" >
+<player race="Order" statueHealth="1500">
 <unit>Swordwrath</unit>
 </player>
 
-<oponent race="Order" statueHealth="400">
+<oponent race="Order" statueHealth="400" rightSide="0">
 <raceName>Speartons</raceName>
 <statue>spearton</statue>
 <unit>Spearton</unit>
@@ -26,7 +26,7 @@
 <normalHealthScale>.5</normalHealthScale>
 <tip>Tip: The Speartons heavy armor is good at blocking arrows.</tip>
 
-<player race="Order" statueHealth="1000">
+<player race="Order" statueHealth="1000" rightSide="0">
 <unit>Swordwrath</unit>
 <unit>Spearton</unit>
 <startingUnit>Miner</startingUnit>
@@ -47,7 +47,7 @@
 <startingUnit>Miner</startingUnit>
 <startingUnit>Swordwrath</startingUnit>
 <UnitComposition>
-<Swordwrath>10</Swordwrath>
+<Swordwrath>15</Swordwrath>
 <Archidon>35</Archidon>
 </UnitComposition>
 </oponent>
@@ -86,8 +86,8 @@
 <startingUnit>Miner</startingUnit>
 <startingUnit>Swordwrath</startingUnit>
 <UnitComposition>
-<Swordwrath>4</Swordwrath>
-<Ninja>15</Ninja>
+<Swordwrath>2</Swordwrath>
+<Ninja>30</Ninja>
 </UnitComposition>
 </oponent>
 </level>
@@ -124,7 +124,7 @@
 <startingUnit>Miner</startingUnit>
 <startingUnit>Monk</startingUnit>
 <UnitComposition>
-<Monk>4</Monk>
+<Monk>6</Monk>
 <Magikill>10</Magikill>
 
 </UnitComposition>
@@ -177,11 +177,11 @@
 <startingUnit>Ninja</startingUnit>
 <startingUnit>Monk</startingUnit>
 <UnitComposition>
-<Swordwrath>4</Swordwrath>
-<Spearton>5</Spearton>
-<Ninja>3</Ninja>
+<Archidon>15</Archidon>
+<Spearton>8</Spearton>
+<Ninja>2</Ninja>
 <Magikill>3</Magikill>
-<Monk>2</Monk>
+<Monk>4</Monk>
 </UnitComposition>
 </oponent>
 </level>
@@ -275,7 +275,7 @@
 <normalHealthScale>.6</normalHealthScale>
 <tip>Tip: Giants are effective against heavily armored units.</tip>
 
-<player race="Order" statueHealth="1500">
+<player race="Order" statueHealth="1500" rightSide="0">
 <statue>swordwrath</statue>
 <unit>Swordwrath</unit>
 <unit>Spearton</unit>
@@ -440,12 +440,12 @@
 <startingUnit>ChaosMiner</startingUnit>
 <startingUnit>Wingadon</startingUnit>
 <UnitComposition>
-<Bomber>3</Bomber>
-<Knight>1</Knight>
-<Dead>1</Dead>
-<Cat>6</Cat>
+<Bomber>0</Bomber>
+<Knight>10</Knight>
+<Dead>0</Dead>
+<Cat>1</Cat>
 <Wingadon>20</Wingadon>
-<Giant>1</Giant>
+<Giant>2</Giant>
 </UnitComposition>
 </oponent>
 </level>
@@ -481,11 +481,8 @@
 <oponent race="Chaos" statueHealth="1500">
 <raceName>Marrowkai</raceName> 
 <unit>Bomber</unit>
-<unit>Knight</unit>
 <unit>Giant</unit>
 <unit>Dead</unit>
-<unit>Cat</unit>
-<unit>Wingadon</unit>
 <unit>SkelatalMage</unit>
 <startingUnit>ChaosMiner</startingUnit>
 <startingUnit>ChaosMiner</startingUnit>
@@ -496,10 +493,7 @@
 <startingUnit>Wingadon</startingUnit>
 <UnitComposition>
 <Bomber>3</Bomber>
-<Knight>2</Knight>
-<Dead>2</Dead>
-<Cat>3</Cat>
-<Wingadon>3</Wingadon>
+<Dead>10</Dead>
 <SkelatalMage>4</SkelatalMage>
 <Giant>2</Giant>
 </UnitComposition>
@@ -557,11 +551,11 @@
 <startingUnit>Wingadon</startingUnit>
 <startingUnit>SkelatalMage</startingUnit>
 <UnitComposition>
-<Bomber>3</Bomber>
-<Knight>3</Knight>
-<Dead>4</Dead>
-<Cat>7</Cat>
-<Wingadon>4</Wingadon>
+<Bomber>0</Bomber>
+<Knight>10</Knight>
+<Dead>8</Dead>
+<Cat>0</Cat>
+<Wingadon>2</Wingadon>
 <SkelatalMage>4</SkelatalMage>
 <Giant>2</Giant>
 </UnitComposition>
@@ -630,13 +624,12 @@
 
 <UnitComposition>
 <Bomber>0</Bomber>
-<Knight>10</Knight>
-<Dead>8</Dead>
+<Knight>7</Knight>
+<Dead>3</Dead>
 <Cat>0</Cat>
-<Wingadon>2</Wingadon>
-<SkelatalMage>4</SkelatalMage>
-<Giant>2</Giant>
-<Medusa>1</Medusa>
+<Wingadon>10</Wingadon>
+<SkelatalMage>2</SkelatalMage>
+<Giant>3</Giant>
 </UnitComposition>
 </oponent>
 </level>
