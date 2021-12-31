@@ -405,7 +405,7 @@
 <hasInsaneWall>true</hasInsaneWall>
 <normal>1.7</normal>
 <hard>1.5</hard>
-<insane>.9</insane>
+<insane>.7</insane>
 <normalHealthScale>.75</normalHealthScale>
 <tip>Tip: Use your Archidons in large numbers to pick the Eclipsors out of the sky. Enslaved Giants and Magikill will also hit air units.</tip>
 <player race="Order" statueHealth="1500">
@@ -455,7 +455,7 @@
 <unlock>FlyingCrossbowman</unlock>
 <normal>1.65</normal>
 <hard>1.4</hard>
-<insane>.8</insane>
+<insane>.5</insane>
 <normalHealthScale>.7</normalHealthScale>
 <tip>Tip: A clocked Shadowrath can not be targetted by the enemey.</tip>
 
@@ -504,7 +504,7 @@
 <hasInsaneWall>true</hasInsaneWall>
 <normal>1.6</normal>
 <hard>1.4</hard>
-<insane>.8</insane>
+<insane>.6</insane>
 <normalHealthScale>.7</normalHealthScale>
 <tip>Tip: Take out key units first.</tip>
 
@@ -566,7 +566,7 @@
 <hasInsaneWall>true</hasInsaneWall>
 <normal>1.6</normal>
 <hard>1.4</hard>
-<insane>.78</insane>
+<insane>.4</insane>
 <normalHealthScale>.7</normalHealthScale>
 <tip>Tip: Use everything you have learned up to this point to fight the most difficult battle of all.</tip>
 
@@ -618,8 +618,7 @@
 <startingUnit>Dead</startingUnit>
 <startingUnit>Knight</startingUnit>
 <startingUnit>Giant</startingUnit>
-<startingUnit>Cat</startingUnit>
-<startingUnit>Cat</startingUnit>
+<startingUnit>Wingadon</startingUnit>
 <startingUnit>Wingadon</startingUnit>
 <startingUnit>SkelatalMage</startingUnit>
 
