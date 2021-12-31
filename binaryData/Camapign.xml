@@ -593,6 +593,7 @@
 <startingUnit>Magikill</startingUnit>
 <startingUnit>Monk</startingUnit>
 <startingUnit>EnslavedGiant</startingUnit>
+<startingUnit>FlyingCrossbowman</startingUnit>
 </player>
 
 <oponent race="Chaos" statueHealth="1500">
