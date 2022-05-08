@@ -17,4 +17,4 @@ Testers: TheOrderEmpire, 75g, Reknel, CRAFTYJAY, Pyro.
 
 Thanks to Stickpage.com and the Stick Page Community!
 
-Copyright 2022 RuckGames
+©Copyright 2022 RuckGames
